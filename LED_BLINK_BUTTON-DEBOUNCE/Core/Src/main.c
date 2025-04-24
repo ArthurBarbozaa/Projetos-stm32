@@ -102,7 +102,9 @@ int main(void)
 
 }void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
-	uint32_t antes = 0, agora;
+	//static para evitar que a variavel seja reinicializada a cada loop
+	static uint32_t antes = 0;
+	uint32_t agora;
 	agora = HAL_GetTick();
 	if(agora - antes > 50){ //50ms de debounce
 	//altera o estado do LED
