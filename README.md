@@ -4,9 +4,9 @@ Este repositório contém projetos desenvolvidos com a placa STM32F103C8T6 (Blue
 
 ## 📂 Projetos
 
-- 🔘 [LED Blink com Botão](https://github.com/ArthurBarbozaa/Projetos-STM32/tree/main/LED_BLINK_BUTTON): Piscar um LED utilizando um botão como entrada.
-- 🔘 [LED Blink com Botão e Debounce](https://github.com/ArthurBarbozaa/Projetos-STM32/tree/main/LED_BLINK_BUTTON-DEBOUNCE): Piscar um LED com tratamento de debounce no botão.
-- 🔄 [RTOS - Troca de Tarefas](https://github.com/ArthurBarbozaa/Projetos-STM32/tree/main/RTOS-TASK-SWITCH): Implementação de troca de tarefas utilizando um RTOS.
+- 🔘 [LED Blink com Botão](https://github.com/ArthurBarbozaa/Projetos-STM32/tree/master/LED_BLINK_BUTTON): Piscar um LED utilizando um botão como entrada.
+- 🔘 [LED Blink com Botão e Debounce](https://github.com/ArthurBarbozaa/Projetos-STM32/tree/master/LED_BLINK_BUTTON-DEBOUNCE): Piscar um LED com tratamento de debounce no botão.
+- 🔄 [RTOS - Troca de Tarefas](https://github.com/ArthurBarbozaa/Projetos-STM32/tree/master/RTOS-TASK-SWITCH): Implementação de troca de tarefas utilizando um RTOS.
 
 ## 🛠️ IDE Utilizadas
 
