@@ -9,6 +9,7 @@ desde o controle básico de LEDs até a implementação de um sistema operaciona
 ## 📂 Projetos
 
 - 🔧 [BareMetal-Led_Blink](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/BareMetal-Led_Blink): Alterna o funcionamento de dois LEDs, bare metal
+- 🔧 [BareMetal-Led_Blink_v2](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/BareMetal-Led_Blink_v2) Versão aprimorada do Led_Blink,com structs e código modular
 - 🛠️ [HAL-Button_IRQ_Debounce](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/HAL-Button_IRQ_Debounce): Aciona um LED com EXTI e possui tratamento de debounce no botão.
 - 🔄 [RTOS - Troca de Tarefas](https://github.com/ArthurBarbozaa/Projetos-STM32/tree/master/RTOS-TASK-SWITCH): Implementação de troca de tarefas utilizando um RTOS.
 
