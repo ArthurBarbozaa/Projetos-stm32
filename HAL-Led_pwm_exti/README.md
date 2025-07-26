@@ -3,9 +3,14 @@
 ### A luminosidade do led é alterada de duas formas:
 #### 1 - Modo manual - ao pressionar o botão a intensidade do led é alterada seguindo o ciclo: 10 -> 50 -> 100 -> 255
 #### 2 - Modo automático - após percorrer o ciclo, o sistema entra no modo automático, alterando a intensidade de 0 a 255 
+#
+### Preview
 
-demo
-  
+![demo-pwm-stm32](https://github.com/user-attachments/assets/b121f40b-93af-448a-a627-76cacaf5f898)
+
+
+
+  #
 ### 📌 Recursos utilizados
   - STM32F103C8T6 (Blue Pill)
   - PWM via TIM2
