@@ -10,7 +10,9 @@ desde o controle básico de LEDs até a implementação de um sistema operaciona
 
 - 🔧 [BareMetal-Led_Blink](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/BareMetal-Led_Blink): Alterna o funcionamento de dois LEDs, bare metal
 - 🔧 [BareMetal-Led_Blink_v2](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/BareMetal-Led_Blink_v2) Versão aprimorada do Led_Blink,com structs e código modular
+- 🛠️  [HAL-Led_pwm_exti](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/HAL-Led_pwm_exti): Altera a luminosidade do led ao pressionar o botão, possuindo modo automático ou manual
 - 🛠️ [HAL-Button_IRQ_Debounce](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/HAL-Button_IRQ_Debounce): Aciona um LED com EXTI e possui tratamento de debounce no botão.
+- 🔄 [RTOS-BlinkSpeed_EXTI](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/RTOS-BlinkSpeed_EXTI): Altera a velocidade do acionamento do led ao pressionar o botao.
 - 🔄 [RTOS - Troca de Tarefas](https://github.com/ArthurBarbozaa/Projetos-STM32/tree/master/RTOS-TASK-SWITCH): Implementação de troca de tarefas utilizando um RTOS.
 
 ## 🛠️ IDE Utilizadas
