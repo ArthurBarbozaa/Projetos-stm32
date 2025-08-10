@@ -1,0 +1,6 @@
+../Core/Src/ringbuffer.c:4:7:ringbuffer_init	1
+../Core/Src/ringbuffer.c:9:7:isEmpty	1
+../Core/Src/ringbuffer.c:14:7:isFull	1
+../Core/Src/ringbuffer.c:19:7:ringbuffer_write	2
+../Core/Src/ringbuffer.c:28:7:ringbuffer_read	2
+../Core/Src/ringbuffer.c:38:7:ringbuffer_copy_line	8
