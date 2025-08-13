@@ -1,0 +1,9 @@
+/home/arthur/GUI-QT/GUI-Temperature/build-GUI-Temp-Desktop-Debug/CMakeFiles/GUI-Temp.dir
+/home/arthur/GUI-QT/GUI-Temperature/build-GUI-Temp-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/arthur/GUI-QT/GUI-Temperature/build-GUI-Temp-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/arthur/GUI-QT/GUI-Temperature/build-GUI-Temp-Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/arthur/GUI-QT/GUI-Temperature/build-GUI-Temp-Desktop-Debug/CMakeFiles/install.dir
+/home/arthur/GUI-QT/GUI-Temperature/build-GUI-Temp-Desktop-Debug/CMakeFiles/install/local.dir
+/home/arthur/GUI-QT/GUI-Temperature/build-GUI-Temp-Desktop-Debug/CMakeFiles/install/strip.dir
+/home/arthur/GUI-QT/GUI-Temperature/build-GUI-Temp-Desktop-Debug/CMakeFiles/GUI-Temp_autogen_timestamp_deps.dir
+/home/arthur/GUI-QT/GUI-Temperature/build-GUI-Temp-Desktop-Debug/CMakeFiles/GUI-Temp_autogen.dir
