@@ -14,6 +14,7 @@
 
 https://github.com/user-attachments/assets/1d7dea52-13a9-46e4-92c5-3cbc9c05750b
 
-
-
+## Esse projeto contém dois arquivos principais:
+### 📂 QT_Gui -> Contendo o Display utilizando Qt para o usuário selecionar a temperatura
+### 📂 stm32_firmware -> Onde é inicializado o LED e alterado a luminosidade (PWM) conforme o valor recebido
 
