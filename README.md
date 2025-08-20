@@ -1,29 +1,42 @@
-# Projetos STM32
+# 🚀 Projetos STM32
 
-Este repositório contém projetos desenvolvidos com a placa STM32F103C8T6 (Blue Pill), focados em aplicações práticas de sistemas embarcados. Os projetos são realizados de três principais maneiras:
-- Bare Metal -> feito com acesso direto a registradores e memórias, sem bibliotecas ou camada de abstração, oferecendo controle total do hardware.
-- HAL (Hardware Abstraction Layer) -> para projetos focados em prototipagem rápida e redução no tempo de desenvolvimento.
-- FreeRTOS -> para projetos baseado em sistemas operacionais em tempo real, onde  multitarefas e escalonamento são necessários.
-desde o controle básico de LEDs até a implementação de um sistema operacional em tempo real (RTOS).
+Este repositório contém projetos desenvolvidos com a placa **STM32F103C8T6 (Blue Pill)**, explorando diferentes abordagens de programação embarcada:  
+
+- **Bare Metal** → acesso direto a registradores e memórias, sem bibliotecas ou camadas de abstração.  
+- **HAL (Hardware Abstraction Layer)** → prototipagem rápida e redução do tempo de desenvolvimento.  
+- **FreeRTOS** → multitarefa e escalonamento em sistemas de tempo real.  
+
+---
 
 ## 📂 Projetos
 
-- 🔧 [BareMetal-Led_Blink](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/BareMetal-Led_Blink): Alterna o funcionamento de dois LEDs, bare metal
-- 🔧 [BareMetal-Led_Blink_v2](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/BareMetal-Led_Blink_v2) Versão aprimorada do Led_Blink,com structs e código modular
-- 🛠️  [HAL-Led_pwm_exti](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/HAL-Led_pwm_exti): Altera a luminosidade do led ao pressionar o botão, possuindo modo automático ou manual
-- 🛠️ [HAL-Button_IRQ_Debounce](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/HAL-Button_IRQ_Debounce): Aciona um LED com EXTI e possui tratamento de debounce no botão.
-- 🔄 [RTOS-BlinkSpeed_EXTI](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/RTOS-BlinkSpeed_EXTI): Altera a velocidade do acionamento do led ao pressionar o botao.
-- 🔄 [RTOS - Troca de Tarefas](https://github.com/ArthurBarbozaa/Projetos-STM32/tree/master/RTOS-TASK-SWITCH): Implementação de troca de tarefas utilizando um RTOS.
+### 📘 Básico
+- 🔧 [BareMetal-Led_Blink](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/BareMetal-Led_Blink) — Alterna o funcionamento de dois LEDs, bare metal.  
+- 🔧 [BareMetal-Led_Blink_v2](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/BareMetal-Led_Blink_v2) — Versão aprimorada do Led_Blink, com structs e código modular. 
+- 🛠️ [HAL-Button_IRQ_Debounce](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/Basico/HAL-Button_IRQ_Debounce) — Aciona LED com EXTI e tratamento de debounce. 
+- 🛠️ [HAL-Led_pwm_exti](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/Basico/HAL-Led_pwm_exti) — Controle de brilho de LED via botão (modo manual/automático).
+- 🔄 [RTOS-BlinkSpeed_EXTI](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/Basico/RTOS-BlinkSpeed_EXTI) — Ajuste da velocidade do LED via botão, com FreeRTOS.  
+- 🔄 [RTOS-TASK-SWITCH](https://github.com/ArthurBarbozaa/Projetos-STM32/tree/master/Basico/RTOS-TASK-SWITCH) — Implementação de troca de tarefas utilizando RTOS.  
+- 🔄 [RTOS-TrafficLight_Semaphores](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/Basico/RTOS-TrafficLight_Semaphores) — Semáforo de trânsito com FreeRTOS e semáforos.
 
-## 🛠️ IDE Utilizadas
+### ⚙️ Intermediário
 
-- **STM32CubeIDE**: 
-- **STM32CubeMX**: 
+- 🖥️ [CPU-Temperature-Monitor](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/Intermediario/CPU-Temperature-Monitor) — Leitura de `/dev` e envio de alerta de temperatura ao STM32. *(Adicionado em 19/08/2025)*  
+- 🔌 [USB-Menu_led_control](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/Intermediario/USB-Menu_led_control) — Menu via USB para controle de LEDs. 
 
-## ⚙️ Ferramentas
+### 🖥️ Interface Gráfica (Qt + STM32)
 
-- **Placa STM32F103C8T6 (Blue Pill)**
-- **ST-LINK V2** 
-- **IDE STM32CubeIDE** 
-- **Componentes eletrônicos como: led, botões e resistores** 
+- ⚙️ [QT-Gear-Indicator](https://github.com/ArthurBarbozaa/Projetos-STM32/tree/master/Intermediario/QT-Gear-Indicator): Indicador de marcha simulando painel automotivo, integrado via Qt.
+- ⚙️ [QT-Led-Brightness-Control](https://github.com/ArthurBarbozaa/Projetos-STM32/tree/master/Intermediario/QT-led-brightness-control): Controle da intensidade de LED pela interface gráfica.
+---
 
+## 🛠️ IDEs e Ferramentas
+
+- **STM32CubeIDE**  
+- **STM32CubeMX**  
+- **ST-LINK V2**  
+- **Componentes eletrônicos (LEDs, botões, resistores, etc.)**  
+
+---
+
+📌 Este repositório é constantemente atualizado à medida que novos projetos são desenvolvidos.
