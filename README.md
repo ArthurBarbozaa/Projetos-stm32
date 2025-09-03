@@ -28,6 +28,7 @@ Este repositório contém projetos desenvolvidos com a placa **STM32F103C8T6 (Bl
 - ⚙️ [QT-Gear-Indicator](https://github.com/ArthurBarbozaa/Projetos-STM32/tree/master/Intermediario/QT-Gear-Indicator): Indicador de marcha simulando painel automotivo, integrado via Qt.
 - ⚙️ [QT-Led-Brightness-Control](https://github.com/ArthurBarbozaa/Projetos-STM32/tree/master/Intermediario/QT-led-brightness-control): Controle da intensidade de LED pela interface gráfica.
 - ⚙️ [QT-CAN-Battery-Monitor](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/Intermediario/QT-CAN-Battery-Monitor): Monitor de nivel de bateria que simula o envio de uma mensagem CAN, altera o Display e aciona LED se a bateria for menor que 75%
+-  ⚙️ [QT-DataDisplay-can](https://github.com/ArthurBarbozaa/Projetos-stm32/tree/master/Intermediario/QT-DataDisplay-can): Display de dados do host via Qt, comunicação por meio de SocketCan, integração com stm32 para alertar acendendo LEDs
 ---
 
 ## 🛠️ IDEs e Ferramentas
